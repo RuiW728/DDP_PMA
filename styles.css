@@ -1,0 +1,164 @@
+/* Background image setting to fill the screen width */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+/* Logo image positioning */
+  .logo {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* UniCamp logo letter design */
+.name{
+    position: absolute;
+    top: 12%;
+    left: calc(15% + 120px);
+    transform: translate(-50%, -50%);
+    /* Define the font format in a handwriting way */
+    font-family: cursive; 
+    font-size: 24px;
+    color: purple;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Navigator posison setting */
+ ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: rgba(200, 191, 200, 0.601);
+    color: #361f1558;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  /* Set the navigator button into a good position */
+  nav ul li {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: cursive;
+  }
+  
+  nav ul li a {
+    color: #053321e7;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 150%;
+  }
+  
+  nav ul li a:hover {
+    background-color: #e01414;
+  }
+
+   .table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    border-collapse: collapse;
+  } 
+  /* set an approperate table position */
+   table {
+    margin-top: 1000px; 
+    width: 100%;
+    border-collapse: collapse;
+  } 
+  
+   td {
+    padding: 0px;
+    text-align: center;
+  } 
+  /* set suitable image size */
+  td img {
+    width: 600px;
+    height: 400px;
+  }
+
+  td h1 {
+    margin-top: 0px;
+  }
+
+  td p {
+    margin-left: 150px;
+    width: 600px;
+    height: 400px;
+    font-family: cursive; 
+    font-size: larger;
+  }
+
+  /* .topbutton {
+    margin-bottom: 0%;
+    border: none;
+    color: white;
+    padding: 950px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 30px;
+    cursor: pointer; 
+    bottom: 0px;
+    left: 50%; 
+  }  */
+
+  footer {
+    margin-bottom: 0%;
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer {
+    max-width: 100%;
+    /* margin-bottom: 0px; */
+    /* margin: 0 auto; */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .footer-links li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-links li a:hover {
+    color: #000;
+  }
+
