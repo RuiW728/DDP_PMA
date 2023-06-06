@@ -29,6 +29,24 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* Login button design */
+.login {
+   /* top: 12%; */
+  /* left: calc(15% + 120px); */
+  transform: translate(-50%, -50%);
+  /* Define the font format in a handwriting way */
+  font-family: cursive; 
+  font-size: 24px;
+  right: 0%; 
+  text-align: right;
+  color: rgba(22, 72, 158, 0.56);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
+  position: absolute; 
+  top: 15%; 
+  right: 0px; 
+  text-align: right;
+}
+
 /* Navigator posison setting */
  ul {
     margin: 0;
@@ -63,6 +81,32 @@
   
   nav ul li a:hover {
     background-color: #e01414;
+  }
+
+  /* canteen sector */
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    display:inline-block;
+    flex-direction: row; justify-content: space-around;
+    width: 30%;
+    font-family: cursive;
+    text-align:center;
+
+  }
+/* inline-block for activity room */
+  .flex_forum > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    display:inline-block;
+    flex-direction: row; justify-content: space-around;
+    width: 100%;
+    font-family: cursive;
+    text-align:left;
   }
 
    .table {
@@ -102,11 +146,11 @@
     font-size: larger;
   }
 
-  /* .topbutton {
+  .topbutton {
     margin-bottom: 0%;
     border: none;
     color: white;
-    padding: 950px; 
+    /* padding: 950px;  */
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -115,7 +159,7 @@
     cursor: pointer; 
     bottom: 0px;
     left: 50%; 
-  }  */
+  } 
 
   footer {
     margin-bottom: 0%;
@@ -126,6 +170,8 @@
   
   .footer {
     max-width: 100%;
+    bottom: 0;
+    margin-top: auto;
     /* margin-bottom: 0px; */
     /* margin: 0 auto; */
   }
